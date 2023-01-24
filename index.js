@@ -38,7 +38,7 @@ b = 5,
 c = 5 ;
  
 
-let number = 3;
+let number = "пять";
 if (number > 0) {
 	 console.log("Число" + number + "положиельное");
 }
@@ -46,3 +46,12 @@ else if (number < 0) {
 	console.log("Число" + "отрицательое")
 }
 
+else if (number < 0) {
+  console.log("Число" + number + "отрительное")
+}
+else if (number === 0){
+	  console.log("Число роль не отрицательное  и не положительное");
+}
+else {
+	console.log(number + "не является числом");
+}
