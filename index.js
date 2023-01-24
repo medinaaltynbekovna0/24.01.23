@@ -33,4 +33,16 @@ let example11 = 6 > 3;
 let example12 = 5 === 5;
 let example13 = 2 < 4;
 
+let a = 5;
+b = 5,
+c = 5 ;
+ 
+
+let number = 3;
+if (number > 0) {
+	 console.log("Число" + number + "положиельное");
+}
+else if (number < 0) {
+	console.log("Число" + "отрицательое")
+}
 
