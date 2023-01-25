@@ -86,6 +86,6 @@ let month = "январь";
 if (month === "декабрь" || month === "январь" || month === "февраль") {
 	console.log("это зима");
 }
-else if (month === "march" || month "april" || month "may"){
+else if (month === "март" || month === "апрель" || month === "май"){
 	console.log("it is spring")
 }
