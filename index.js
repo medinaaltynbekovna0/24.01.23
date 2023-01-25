@@ -55,3 +55,37 @@ else if (number === 0){
 else {
 	console.log(number + "не является числом");
 }
+
+//Является ли число 5 четным или нечетным числом.
+
+let number2 = 5;
+if ( number2% 2 ===0) {
+	console.log(number2  + "нечетное число")
+}
+else if (number2 % 2 ===1){
+	console.log(number2 + "is odd")
+}
+else {
+	console.log(number2 + " is not a number");
+
+} 
+
+// У васи 212 сомов хватит ли ему денег на мороженное которая стоит 40 сом.
+
+let vasya = 212;
+let ice = 40;
+if (vasya > ice) {
+	console.log("хватит");
+}
+else if (vasya < ice) {
+	console.log("не хватает");
+}
+
+//Вывести каким сезоном является ли = "Январь"
+let month = "январь";
+if (month === "декабрь" || month === "январь" || month === "февраль") {
+	console.log("это зима");
+}
+else if (month === "march" || month "april" || month "may"){
+	console.log("it is spring")
+}
